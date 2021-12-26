@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+</head>
+<body>
+
+    
+    
+    <div class="container">
+        <div class="row w-100">
+            <div class="col-12 my-5 d-flex justify-content-between">
+                <h2>Pesquisa | Veículos</h2>
+                <a class="btn btn-secondary py-2" href="novo.html">Cadastrar Veículo</a>
+            </div>
+
+            <div class="col-12">
+
+                <div class="row d-flex align-items-center">
+
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="">Marca</label>
+                            <input class="form-control marca" type="text" name="marca" id="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="">Veículo </label>
+                            <input class="form-control veiculo" type="text" name="veiculo" id="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="">Ano</label>
+                            <input class="form-control ano" type="number" name="ano" id="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="">Descrição</label>
+                            <input class="form-control descricao" type="text" name="descricao" id=""d>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="font-weight-bold" for="">Vendido</label>
+                            <select name="vendido" id="" class="form-control vendido">
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+
+                        <button class="btn btn-secondary btn-pesquisar mt-2">Pesquisar</button>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+            <div class="col-12 my-3">
+            
+                <div id="loader-wrapper">
+                    <div class="w-100 spinner">
+                        <div class="spinner-border"></div>
+                    </div>
+                </div>
+                
+
+                <div class="table-responsive lista-veiculos my-3">
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca</th>
+                                <th>Veículo</th>
+                                <th>Descrição</th>
+                                <th>Ano</th>
+                                <th>Situação</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+</body>
+</html>

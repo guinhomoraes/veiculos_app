@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row w-80">
+            <div class="col-12 my-5 d-flex justify-content-between">
+                <h2>Edição | Veículos</h2>
+                <a class="btn btn-secondary py-2" href="index.html">Pesquisar Veículos</a>
+            </div>
+            <div class="col-12">
+
+                <div class="p-3 border border-secondary">
+
+                <form class="form-edicao" action="#" method="get">
+
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Marca <span class="text-danger"> * </span></label>
+                                <input class="form-control marca" type="text" name="marca" id="" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Veículo <span class="text-danger"> * </span></label>
+                                <input class="form-control veiculo" type="text" name="veiculo" id="" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Ano <span class="text-danger"> * </span></label>
+                                <input class="form-control ano" type="number" name="ano" id="" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Descrição <span class="text-danger"> * </span></label>
+                                <input class="form-control descricao" type="text" name="descricao" id="" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label class="font-weight-bold" for="">Vendido <span class="text-danger"> * </span></label>
+                                <select name="vendido" id="" class="form-control vendido" readonly>
+                                    <option value="0">Não</option>
+                                    <option value="1">Sim</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                </form>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/visualizar.js"></script>
+</body>
+</html>
